@@ -2,8 +2,8 @@
 
 title: Nemo Mobile User experience team
 description: This is the team site for the Nemo Mobile user experience, including documentation to latest software and components
-logo: https://avatars3.githubusercontent.com/u/5736443?v=3&s=200
-teaser: https://avatars3.githubusercontent.com/u/5736443?v=3&s=200
+logo: nemo-logo.svg
+teaser: nemo-logo.svg
 locale:
 url: https://nemomobile-ux.github.io
 
