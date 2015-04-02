@@ -1,8 +1,8 @@
 # Site navigation links
 
 - title: Glacier homescreen
-  url: glacier-home/
+  url: glacier-home
   excerpt:
   image:
 - title: Nemo Mobile components
-  url: qtquickcontrols-nemo/
+  url: qtquickcontrols-nemo
