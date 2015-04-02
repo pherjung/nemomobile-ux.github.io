@@ -2,8 +2,8 @@
 
 title: Nemo Mobile User experience team
 description: This is the team site for the Nemo Mobile user experience, including documentation to latest software and components
-logo: https://avatars3.githubusercontent.com/u/5736443?v=3&s=200 # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+logo: https://avatars3.githubusercontent.com/u/5736443?v=3&s=200
+teaser: https://avatars3.githubusercontent.com/u/5736443?v=3&s=200
 locale:
 url: https://nemomobile-ux.github.io
 
@@ -12,7 +12,7 @@ url: https://nemomobile-ux.github.io
 sass:
     sass_dir: _sass
     style: compressed
-permalink: /:categories/:title/
+permalink: /pages/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: pygments
