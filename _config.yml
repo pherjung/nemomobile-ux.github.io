@@ -12,7 +12,7 @@ url: https://nemomobile-ux.github.io
 sass:
     sass_dir: _sass
     style: compressed
-permalink: /pages/:category/:title/
+permalink: /pages/:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: pygments
