@@ -26,10 +26,10 @@ owner:
   email:
   twitter: NemoMobile
   google:
-    ad-client: 
-    ad-slot: 
-  bio: 
-  avatar: https://avatars3.githubusercontent.com/u/5736443?v=3&s=200 # 160x160 px image for author byline
+    ad-client:
+    ad-slot:
+  bio:
+  avatar: nemo-logo-small.png # 160x160 px image for author byline
 disqus-shortname:
 
 
