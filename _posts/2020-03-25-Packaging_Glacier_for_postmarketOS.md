@@ -2,7 +2,7 @@
 layout: article
 title: Packaging Glacier for postmarketOS
 modified: 2020-03-25
-author: Bart Ribbers (PureTryOut)
+author: bart_ribbers
 tags: [main]
 image:
   teaser: postmarketos-logo.svg
