@@ -50,6 +50,6 @@ So far only the base Mer components have been packaged, and even then not everyt
 
 Hopefully I'll soon have something for you all to test!
 
-You can see the packages so far in [the `feature/mer` branch of `pmaports`](https://gitlab.com/postmarketOS/pmaports/-/tree/feature/mer/mer).
+You can see the packages so far in [the `feature/sailfish` branch of `pmaports`](https://gitlab.com/postmarketOS/pmaports/-/tree/feature/sailfish/sailfish).
 
 By the way, there is also work being done to package Glacier for Arch Linux! Check it out [here](https://github.com/nemo-packaging).
