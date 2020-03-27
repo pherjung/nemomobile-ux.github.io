@@ -1,0 +1,133 @@
+---
+layout: default
+title: NemoMobile
+description: Bringing freedom to mobile
+---
+
+<div id="page-wrapper">
+
+	<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+			<h2>{{ page.title }}</h2>
+			<p>{{ page.description }}</p>
+			</div>
+		</section>
+
+	<!-- Main -->
+		<section id="main" class="container">
+
+			<section class="box special">
+				<header class="major">
+					<h2>NemoMobile is the successor of MeeGo and is
+					<br />
+					a truly opensource Mer-based Linux Mobile Operating System</h2>
+					<p>NemoMobile is community driven effort to bring a truly free and open
+					choice of mobile operating system to the end user.</p>
+				</header>
+				<span class="image featured"><img src="images/nexus5_wide.png" alt="" /></span>
+			</section>
+
+			<section class="box special features">
+				<div class="features-row">
+					<section>
+						<span class="icon major fa-code accent1"></span>
+						<h3>FOSS</h3>
+						<p>Free Open Source Software. Anyone can see, use and contribute to the codebase. NemoMobile is
+						a completely free and open software built and maintained by the community.</p>
+					</section>
+					<section>
+						<span class="icon major fa-mobile accent3"></span>
+						<h3>Built with mobile in mind</h3>
+						<p>NemoMobile utilizes well developed and fully open source Mer-core.
+						Mer-core has been optimized for mobile devices and is based on
+						multi-platform toolkit QT.</p>
+					</section>
+				</div>
+				<div class="features-row">
+					<section>
+						<span class="icon major fa-thumbs-up accent4"></span>
+						<h3>Easy to use UX</h3>
+						<p>Glacier UX as the default the use of NemoMobile is fluid and natural.
+						It is very easy to build new user experiences on top of NemoMobile.</p>
+					</section>
+					<section>
+						<span class="icon major fa-lock accent2"></span>
+						<h3>Secure</h3>
+						<p>Security is a default with true Linux devices. You control
+						everything just like with your Linux desktop.</p>
+					</section>
+				</div>
+			</section>
+
+			<div class="row">
+				<div class="6u 12u(narrower)">
+
+					<section class="box special">
+						<span class="image featured"><img src="images/nexus5_wide.png" alt="" /></span>
+						<h3>Want to contribute?</h3>
+						<p>You can contribute by joining our Telegram group,
+						IRC channel and checking out our GitHub repos.
+						You can ask us for help and we will be happy to answer any
+						questions.</p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+
+				</div>
+				<div class="6u 12u(narrower)">
+
+					<section class="box special">
+						<span class="image featured"><img src="images/nexus5_wide.png" alt="" /></span>
+						<h3>Development so far</h3>
+						<p>Check here for our current development progress.</p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+
+				</div>
+				
+				<!-- Blog posts -->
+				 {% for post in site.posts limit: 4 %}
+					<div class="6u 12u(narrower)">
+       
+					       <section class="box special">
+						
+						       <span class="image featured"><img src="{{ post.image }}" alt="" /></span>
+						       <h3>{{ post.title }}</h3>
+						       <p>{{ post.description }}</p>
+						       <ul class="actions">
+							       <li><a href="{{ post.url | relative_url }}" class="button alt">Learn More</a></li>
+						       </ul>
+						</a>
+					       </section>
+       
+				       </div>
+				 {% endfor %}
+			</div>
+
+		</section>
+
+	<!-- CTA -->
+		<section id="cta">
+
+			<h2>Sign up for our newsletter</h2>
+			<p>You will get news from the development program aswell as news regarding
+			current mobile ecosystem as a whole.</p>
+
+			<form>
+				<div class="row uniform 50%">
+					<div class="8u 12u(mobilep)">
+						<input type="email" name="email" id="email" placeholder="Email Address" />
+					</div>
+					<div class="4u 12u(mobilep)">
+						<input type="submit" value="Sign Up" class="fit" />
+					</div>
+				</div>
+			</form>
+
+		</section>
+
+</div>
