@@ -1,8 +1,25 @@
-<header id="masthead">
-  <div class="inner-wrap">
-    <a href="/" class="site-title">{{ site.title }}</a>
-    <nav role="navigation" class="menu top-menu">
-        {% include navigation.html %}
-    </nav>
-  </div><!-- /.inner-wrap -->
-</header><!-- /.masthead -->
+<!-- Header -->
+				<header id="header" {% if page.name == 'index.html' %}class="alt"{% endif %}>
+					<h1><a href="/index.html">{{ site.title }}</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="/index.html">Home</a></li>
+							<li>
+								<a href="#" class="icon fa-angle-down">Menu</a>
+								<ul>
+									<li><a href="/generic">Generic</a></li>
+									<li><a href="/elements.html">Elements</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option One</a></li>
+											<li><a href="#">Option Two</a></li>
+											<li><a href="#">Option Three</a></li>
+											<li><a href="#">Option Four</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</header>
