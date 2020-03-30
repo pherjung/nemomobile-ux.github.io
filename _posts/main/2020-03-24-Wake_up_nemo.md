@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Wake up nemo
 modified: 2020-03-24
 categories: main

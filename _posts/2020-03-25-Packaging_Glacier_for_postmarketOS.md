@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Packaging Glacier for postmarketOS
 modified: 2020-03-25
 author: bart_ribbers

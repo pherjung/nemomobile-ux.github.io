@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 permalink: /qtquickcontrols-nemo/
 title: "QtQuickcontrols components"
 ---
