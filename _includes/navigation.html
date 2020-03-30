@@ -1,8 +1,8 @@
 <ul>
 	<li><a href="/">Home</a></li>
-	<li>
+	<li class="dropdown">
 	<a href="#" class="icon fa-angle-down">Menu</a>
-	<ul>
+	<ul class="dropdown-content">
     {% for link in site.data.navigation %}
       {% if link.url contains 'http' %}
           {% assign domain = '' %}
