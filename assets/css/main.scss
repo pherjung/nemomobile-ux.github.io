@@ -1200,12 +1200,12 @@
 	#banner {
 		background-attachment:	scroll,							fixed;
 		background-color:		#666;
-		background-image:		url('../../images/overlay.png'),		url('../../images/banner.jpg');
-		background-position:	top 50px right 200px,						center center;
-		background-repeat:		no-repeat,							no-repeat;
-		background-size:		300px,							cover;
+		background-image:		url('../../images/banner.jpg');
+		background-position:	center center;
+		background-repeat:		no-repeat;
+		background-size:		cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 2em 0 2em 0;
 		text-align: center;
 
 		:last-child {
