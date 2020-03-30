@@ -6,6 +6,7 @@ logo: nemo-logo.svg
 teaser: nemo-logo.svg
 locale:
 url: https://nemomobile-ux.github.io
+baseurl: ""
 
 # Jekyll configuration
 
@@ -16,7 +17,7 @@ permalink: /pages/:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
-gems:
+plugins:
   - jekyll-sitemap
 
 
@@ -25,12 +26,12 @@ owner:
   name: Nemo Mobile
   email:
   twitter: NemoMobile
-  google:
-    ad-client:
-    ad-slot:
   bio:
   avatar: nemo-logo-small.png # 160x160 px image for author byline
 disqus-shortname:
 
+social:
+  twitter: https://twitter.com/nemomobile
+  github: https://github.com/nemomobile
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
