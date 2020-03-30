@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 permalink: /glacier-home/
 title: "Glacier Home"
 ---

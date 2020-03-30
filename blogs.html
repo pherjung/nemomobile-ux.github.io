@@ -1,0 +1,40 @@
+---
+layout: default
+title: Blogs
+description: Latest posts
+---
+
+<div id="page-wrapper">
+
+	<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+			<h2>{{ page.title }}</h2>
+			<p>{{ page.description }}</p>
+			</div>
+		</section>
+
+	<!-- Main -->
+		<section id="blog" class="container">
+            <div class="row">
+            {% for post in site.posts %}
+                <div class="3u 6u(narrower)">
+                    <section class="box blog special">
+                        <span class="image featured post-teaser">
+                            {% if post.image.teaser %}
+                                <img src="{{ '/images/' | append: post.image.teaser | relative_url }}" alt="teaser" itemprop="image">
+                            {% else %}
+                                <img src="{{ '/images/' | append: site.teaser | relative_url }}" alt="teaser" itemprop="image">{% endif %}
+                            <h4>{{ post.title }}</h3>
+                            <p>{{ post.description }}</p>
+                            <ul class="actions">
+                                <li><a href="{{ post.url | relative_url }}" class="button alt">Learn More</a></li>
+                            </ul>
+                        </a>
+                    </section>
+                </div>
+            {% endfor %}        
+            </div>
+        </section>
+        
+</div>

@@ -1,8 +1,7 @@
-<header id="masthead">
-  <div class="inner-wrap">
-    <a href="/" class="site-title">{{ site.title }}</a>
-    <nav role="navigation" class="menu top-menu">
-        {% include navigation.html %}
-    </nav>
-  </div><!-- /.inner-wrap -->
-</header><!-- /.masthead -->
+<!-- Header -->
+				<header id="header" {% if page.name == 'index.html' %}class="alt"{% endif %}>
+					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+					<nav id="nav">
+						{% include navigation.html %}
+					</nav>
+				</header>
