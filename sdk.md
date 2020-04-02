@@ -18,18 +18,23 @@ Last nemo sdk you can dowload [here](https://yadi.sk/d/8GKbU0XbWW5_qw)
 
 ```bash
 cd 
-mkdir -p nemo/sdk
-sudo tar --numeric-owner -pxjf nemo-sdk.tar.bz2 -C nemo/sdk
+export MER_ROOT=$HOME/mer
+mkdir -p $MER_ROOT/sdks/nemosdk
+sudo tar --numeric-owner -pxjf ~/Downloads/nemo-sdk.tar.bz2 -C $MER_ROOT/sdks/nemosdk
 ```
 
-Add into you ~/.bashrc `alias nemosdk='$HOME/nemo/sdk/mer-sdk-chroot'`
+Add into you ~/.bashrc `alias nemosdk='$HOME/mer/sdks/nemosdk/mer-sdk-chroot'`
+
+Update to last packages versions
+sudo zypper ref
+sudo zypper up
 
 ### Install targets
 
 ```bash
 cd
-mkdir -p nemo/targets/nemo-$ARCH
-sudo tar --numeric-owner -pxjf nemo-target_$ARCH -C nemo/targets/nemo-$ARCH
+mkdir -p ~/mer/targets/nemo-$ARCH
+sudo tar --numeric-owner -pxjf nemo-target_$ARCH.tar.bz2 -C ~/mer/targets/nemo-$ARCH
 ```
 
 ### Setup targets
@@ -37,8 +42,8 @@ Enter into nemo sdk `nemosdk`
 
 ```bash
 cd
-sudo chown -R $USER nemo/targets/nemo-$ARCH
-pushd nemo/targets/nemo-$ARCH
+sudo chown -R $USER ~/mer/targets/nemo-$ARCH
+pushd ~/mer/targets/nemo-$ARCH
 grep :$(id -u): /etc/passwd >> etc/passwd
 grep :$(id -g): /etc/group >> etc/group
 
