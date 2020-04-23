@@ -33,5 +33,6 @@ disqus-shortname:
 social:
   twitter: https://twitter.com/nemomobile
   github: https://github.com/nemomobile
+  telegram: https://telegram.me/nemomobile
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
