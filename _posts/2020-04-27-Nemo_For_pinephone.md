@@ -19,17 +19,21 @@ image:
 [Version 0.8 2gb sdcard image](https://yadi.sk/d/8oSZp-frGidscw)
 
 # How to flash
-You need 2+ GB SD card to fash nemomobile. 
+You need a SD card with a capacity of 2GB or higher to flash Nemo Mobile. 
 
-## Know bugs
-* Voicecall not work
-* Sounds not work
-* Cameras not work
+## Known bugs
+* Voicecalls do not work
+* Sound does not work
+* Cameras do not work
 
-## Contribute
-* All hw probles as MR to this project
-* UI/UX here https://github.com/nemomobile-ux/
+## How to contribute
+
+Problems with all user-interface components should be reported directly to those projects on Github.
+For example, a problem with the dialer can be reported to [https://github.com/nemomobile-ux/glacier-dialer](https://github.com/nemomobile-ux/glacier-dialer).
+
+Any hardware problems should be reported to [https://github.com/neochapay/nemo-device-dont_be_evil](https://github.com/neochapay/nemo-device-dont_be_evil).
 
 ## Chat
-* NemoMobile in telegram: https://t.me/NemoMobile
-* nemomobile chat on freenode
+* Telegram: [https://t.me/NemoMobile](https://t.me/NemoMobile)
+* IRC: #nemomobile on freenode
+* Matrix: [https://matrix.to/#/#nemo:disroot.org](https://matrix.to/#/#nemo:disroot.org)
