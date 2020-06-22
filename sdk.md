@@ -6,13 +6,13 @@ description: Get and setup nemo sdk
 
 ### Getting nemo sdk
 
-Last nemo sdk you can dowload [here](https://yadi.sk/d/8GKbU0XbWW5_qw)
+Last nemo sdk you can dowload [here](http://img.nemomobile.net/2020.05/nemo_sdk-2020.05.i486.tar.bz2)
 
 ### Getting nemo build targets
 
-* [aarch64](https://yadi.sk/d/nLqyIfFigcsfTA)
-* [armv7hl](https://yadi.sk/d/hgKlglpnLugNvQ)
-* [x86](https://yadi.sk/d/hwV22opW6fklAA)
+* [aarch64](http://img.nemomobile.net/2020.05/nemo_target-2020.05.aarch64.tar.bz2)
+* [armv7hl](http://img.nemomobile.net/2020.05/nemo_target-2020.05.armv7hl.tar.bz2)
+* [x86](http://img.nemomobile.net/2020.05/nemo_target-2020.05.i486.tar.bz2)
 
 ### Install sdk
 
