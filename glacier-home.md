@@ -42,7 +42,7 @@ nemo_clean.ks
 
 ## I have a problem!
 
-If you have some problems we welcome you to our IRC (#nemo on Freenode, or [on Matrix](https://matrix.to/#/#nemo:disroot.org) or Telegram groups.
+If you have some problems we welcome you to our IRC (#nemo on Freenode), [Matrix](https://matrix.to/#/#nemomobile:matrix.org) or Telegram groups.
 You can also post issues on [our issue tracker](https://github.com/nemomobile-ux/glacier-home/issues)
 
 In an issue you'll have to include the following information:

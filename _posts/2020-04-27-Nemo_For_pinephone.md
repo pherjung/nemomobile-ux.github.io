@@ -59,4 +59,4 @@ Any hardware problems should be reported to [https://github.com/neochapay/nemo-d
 
 * Telegram: [https://t.me/NemoMobile](https://t.me/NemoMobile)
 * IRC: #nemomobile on freenode
-* Matrix: [https://matrix.to/#/#nemo:disroot.org](https://matrix.to/#/#nemo:disroot.org)
+* Matrix: [https://matrix.to/#/#nemomobile:matrix.org](https://matrix.to/#/#nemomobile:matrix.org)
