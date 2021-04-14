@@ -9,7 +9,7 @@ image:
   thumb: pinephone-nemomobile-manjaro.png
 ---
 
-Welcome to new steep of Nemo Mobile! We are pleased to present a new image, now based on Manjaro.
+Welcome to a new step for Nemo Mobile! We are pleased to present a new image, now based on Manjaro.
 From now on all releases of Nemo Mobile will be based on Manjaro.
 
 # Downloads:
