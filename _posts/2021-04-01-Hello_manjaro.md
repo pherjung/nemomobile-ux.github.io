@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First devel image for manjaro
+title: First development image based on Manjaro
 modified: 2021-04-02
 author: neochapay
 tags: [main]
@@ -9,14 +9,14 @@ image:
   thumb: pinephone-nemomobile-manjaro.png
 ---
 
-Welcome to new steep of NemoMobile! We are pleased to present new image who based on Manjaro. Next all
-releases of NemoMobile will be based on Manjaro base.
+Welcome to new steep of Nemo Mobile! We are pleased to present a new image, now based on Manjaro.
+From now on all releases of Nemo Mobile will be based on Manjaro.
 
 # Downloads:
 
-* For pinephone: https://img.nemomobile.net/devel/Manjaro-ARM-nemomobile-pinephone-0.2.img.xz
+* For the PinePhone: https://img.nemomobile.net/devel/Manjaro-ARM-nemomobile-pinephone-0.2.img.xz
 * Sources: https://github.com/nemomobile-ux/
 * Packages: https://img.nemomobile.net/manjaro/05.2020/stable/
-* BugTracker: https://github.com/nemomobile-ux/main/issues
+* Bug tracker: https://github.com/nemomobile-ux/main/issues
 
 
