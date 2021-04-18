@@ -13,7 +13,7 @@ You can also use [the VirtualBox image](#virtualbox-image)
 
 First, as a precautionary measure, change the _Default USB_ mode to _Developer mode_.
 Allow _Remote connection_ from _Developer tools_ and set the password used for remote connections.
-Also make sure to backup Jolla's lipstick, just in case:
+Also make sure to backup Jolla's Lipstick, just in case:
 
 ```
 $ pkcon download /home/nemo/ lipstick-jolla-home-qt5
@@ -38,7 +38,7 @@ Then refresh the packages:
 # pkcon refresh
 ```
 
-Next, install the Glacier packages:
+Next, install the Glacier package:
 
 ```
 # pkcon install lipstick-glacier-home-qt5
@@ -72,7 +72,7 @@ Then install the backup of `lipstick-jolla-home` made earlier:
 ```
 
 ## Uninstalling
-If you for some reason want to install Glacier, run the following commands:
+If for some reason you want to install Glacier, run the following commands:
 
 ```
 # ssu dr nemo-devel-ux
@@ -105,4 +105,4 @@ Open VirtualBox and select `SailfishOS Emulator`.
 Open the settings of the selected virtual machine and select "Storage".
 Change "sailfishos.vdi" to the extracted virtual machine image "SFOSGlacier.vdi".
 
-To get the latest Nemo packages follow the installations instructions on the top of this page.
+To get the latest Nemo Mobile packages follow the installation instructions on the top of this page.

@@ -6,7 +6,7 @@ description: Get and setup nemo sdk
 
 ### Getting nemo sdk
 
-Last nemo sdk you can dowload [here](http://img.nemomobile.net/2020.05/nemo_sdk-2020.05.i486.tar.bz2)
+Download latest nemo's sdk [here](http://img.nemomobile.net/2020.05/nemo_sdk-2020.05.i486.tar.bz2)
 
 ### Getting nemo build targets
 
@@ -23,13 +23,13 @@ mkdir -p $MER_ROOT/sdks/nemosdk
 sudo tar --numeric-owner -pxjf ~/Downloads/nemo-sdk.tar.bz2 -C $MER_ROOT/sdks/nemosdk
 ```
 
-Add into you ~/.bashrc `alias nemosdk='$HOME/mer/sdks/nemosdk/mer-sdk-chroot'`
+Add into your ~/.bashrc `alias nemosdk='$HOME/mer/sdks/nemosdk/mer-sdk-chroot'`
 
-Update to last packages versions
+Update packages
 sudo zypper ref
 sudo zypper up
 
-### Install targets
+### Install target
 
 ```bash
 cd
@@ -37,7 +37,7 @@ mkdir -p ~/mer/targets/nemo-$ARCH
 sudo tar --numeric-owner -pxjf nemo-target_$ARCH.tar.bz2 -C ~/mer/targets/nemo-$ARCH
 ```
 
-### Setup targets
+### Setup target
 Enter into nemo sdk `nemosdk` 
 
 ```bash
