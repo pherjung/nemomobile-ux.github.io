@@ -16,9 +16,9 @@ published: true
 
 After a long silence, we want to slightly update the site. Now on site you may see some new pages like [homepage](/glacier-home/) and [list of components](/qtquickcontrols-nemo/)
 
-On next weeks we will tell you about
+On next weeks we will tell you more about
 
-* Status of porting nemo to Qt 5.12
-* Status of runing nemo on PinePhone
+* Status of porting Nemo Mobile to Qt 5.12
+* Status of runing Nemo Mobile on PinePhone
 
 See you!

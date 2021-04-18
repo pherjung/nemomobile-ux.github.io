@@ -20,7 +20,7 @@ image:
 
 # How to flash
 
-You need a SD card with a capacity of 2GB or higher to flash Nemo Mobile.
+A SD card with a capacity of 2GB or higher is necessary to flash Nemo Mobile.
 
 ## Prepare SD card
 
@@ -44,9 +44,9 @@ Afterwards, copy all the files from the `/boot` directory into the boot partitio
 
 # Known bugs
 
-* Voicecalls do not work
-* Sound does not work
-* Cameras do not work
+* Voicecalls don't work
+* Sound doesn't work
+* Camera doesn't work
 
 # How to contribute
 
