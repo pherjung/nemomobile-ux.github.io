@@ -10,7 +10,7 @@ image:
 ---
 
 NeoChapay participated in Volla Community Days 2021 and presented Nemo Mobile.
-This presentation explains debut of Nemo Mobile, history and current development with some live demonstration.
+This presentation explains the debut of Nemo Mobile, its history and current development with some live demonstration.
 <video controls>
   <source src="/assets/nemo_at_volla_days.mp4" type="video/mp4">
 </video>
