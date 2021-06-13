@@ -17,7 +17,7 @@ This presentation explains the debut of Nemo Mobile, its history and current dev
 
 Presentation is available [here](/assets/Something_about_nemo.pdf).
 
-Manjaro team were present too and lukapanio showed a live a demo of Nemo Mobile using Manjaro as base.
+Manjaro team were present too and lukapanio showed a live demo of Nemo Mobile using Manjaro as base.
 <video controls>
   <source src="/assets/nemo_demo_manjaro.mp4" type="video/mp4">
 </video>
