@@ -42,6 +42,41 @@
     )
   ));
 
+.btn-social {
+    display: block;
+    float: left;
+    padding: 10px 15px;
+    border:none;
+    background-color: #ececec;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;
+}
+
+
+a.btn-social:hover {
+/*    color: #eee; */
+    filter: brightness(115%);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+.twitter {
+    background-color: #55acee;
+}
+.pinterest {
+    background-color: #cc2127;
+}
+.linkedin {
+    background-color: #0077b5;
+}
+
+.reddit {
+    background-color: #FF5700;
+}
+
 /* Basic */
 
   body {
