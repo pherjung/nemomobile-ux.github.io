@@ -3,7 +3,7 @@
 {% endif %}
 
 <div class="author-image">
-{% if author.avatar != '' %}
+{% if author.avatar != '' and author.avatar != blank and author.avatar != nil %}
 	<img src="{{ '/images/' | append: author.avatar  | relative_url }}" alt="{{ author.name }}">
 {% endif %}
 </div><!-- ./author-image -->
