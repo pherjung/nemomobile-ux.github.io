@@ -1,5 +1,6 @@
 <!-- Header -->
-				<header id="header" {% if page.name == 'index.html' %}class="alt"{% endif %}>
+
+				<header id="header" {% if page.layout == 'default' %}class="alt"{% endif %}>
 					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
 					<nav id="nav">
 						{% include navigation.html %}
