@@ -33,7 +33,7 @@ Current version of QtQuickcontrols available on <a href="https://github.com/nemo
   <li>TimePicker</li>
   <li>ToolButton</li>
 </ul>
-<h2>Dislogs</h2>
+<h2>Dialogs</h2>
 <ul>
   <li>SimpleDialog</li>
   <li>QueryDialog</li>
