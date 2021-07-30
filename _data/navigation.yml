@@ -1,5 +1,7 @@
 # Site navigation links
 
+- title: Installation
+  url: /installation/
 - title: Homescreen
   url: /glacier-home/
 - title: Components
@@ -8,5 +10,3 @@
   url: /sdk/
 - title: Blogs
   url: /blogs/
-- title: Installing Glacier
-  url: /installing-glacier/
