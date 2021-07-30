@@ -4,86 +4,40 @@ title: Software developer kit
 description: Get and setup nemo sdk
 ---
 
-### Getting nemo sdk
+## Getting nemo sdk
 
-Download latest nemo's sdk [here](http://img.nemomobile.net/2020.05/nemo_sdk-2020.05.i486.tar.bz2)
+Install [nemomobile into Virtualbox](/installation/). Install `manjaro-arm-tools` and `base-devel` packages
 
-### Getting nemo build targets
-
-* [aarch64](http://img.nemomobile.net/2020.05/nemo_target-2020.05.aarch64.tar.bz2)
-* [armv7hl](http://img.nemomobile.net/2020.05/nemo_target-2020.05.armv7hl.tar.bz2)
-* [x86](http://img.nemomobile.net/2020.05/nemo_target-2020.05.i486.tar.bz2)
-
-### Install sdk
-
-```bash
-cd 
-export MER_ROOT=$HOME/mer
-mkdir -p $MER_ROOT/sdks/nemosdk
-sudo tar --numeric-owner -pxjf ~/Downloads/nemo-sdk.tar.bz2 -C $MER_ROOT/sdks/nemosdk
+```
+pacman -Syyu
+pacman -S manjaro-arm-tools base-devel
 ```
 
-Add into your ~/.bashrc `alias nemosdk='$HOME/mer/sdks/nemosdk/mer-sdk-chroot'`
+## Build packages
 
-Update packages
-sudo zypper ref
-sudo zypper up
+Start with nemo packaging repository [packaging repository](https://github.com/nemomobile-ux/nemo-packaging) or with [manjaro-arm packages](https://gitlab.manjaro.org/manjaro-arm/packages/community/nemo-ux).
+The build procedure is given by scripts in `PKGBUILD` file. 
 
-### Install target
+### x86_64 build:
 
 ```bash
-cd
-mkdir -p ~/mer/targets/nemo-$ARCH
-sudo tar --numeric-owner -pxjf nemo-target_$ARCH.tar.bz2 -C ~/mer/targets/nemo-$ARCH
+cd ./glacier-browser-git # enter the package directory
+makepkg # build package
+pacman -U glacier-browser*pkg* # install package
 ```
 
-### Setup target
-Enter into nemo sdk `nemosdk` 
+### aarch64 build:
 
-```bash
-cd
-sudo chown -R $USER ~/mer/targets/nemo-$ARCH
-pushd ~/mer/targets/nemo-$ARCH
-grep :$(id -u): /etc/passwd >> etc/passwd
-grep :$(id -g): /etc/group >> etc/group
-
-#For armv7hl
-sb2-init -d -L "--sysroot=/" -C "--sysroot=/" -c /usr/bin/qemu-arm-dynamic -m sdk-build -n -N -t / nemo-$ARCH /opt/cross/bin/$ARCH-meego-linux-gnueabi-gcc
-
-#For aarch64
-sb2-init -d -L "--sysroot=/" -C "--sysroot=/" -c /usr/bin/qemu-aarch64-dynamic -m sdk-build -n -N -t / nemo-$ARCH /opt/cross/bin/$ARCH-meego-linux-gnueabi-gcc
-
-#rebuild rpm db and ret last updates
-sb2 -t nemo-$ARCH -m sdk-install -R rpm --rebuilddb
-sb2 -t nemo-$ARCH -m sdk-install -R zypper ref --force
+```
+buildarmpkg -k -p glacier-browser-git # skip -k when want clean chroot
 ```
 
-### Test sdk
-Enter into nemo sdk `nemosdk` 
-
-```bash
-mkdir -p $HOME/nemo/tmp
-pushd $HOME/nemo/tmp
-
-cat > main.c << EOF
-#include <stdlib.h>
-#include <stdio.h>
-int main(void) {
-printf("Scratchbox, works!\n");
-return EXIT_SUCCESS;
-}
-EOF
-
-sb2 -t nemo-$ARCH gcc main.c -o test
-sb2 -t nemo-$ARCH ./test
-
-popd
+The command expects working repository in chroot configuration:
+```
+/var/lib/manjaro-arm-tools/pkg/aarch64/etc/pacman.conf
 ```
 
-### Build packages
-Enter into nemo sdk `nemosdk` 
-
-```bash
-cd path_to_sources
-mb2 build
+To add new package into repository copy the file into directory and run repo-add:
+```
+repo-add -q "nemomobile.db.tar.xz" "*.pkg.tar.*"
 ```

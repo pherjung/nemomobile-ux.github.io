@@ -4,38 +4,59 @@ permalink: /qtquickcontrols-nemo/
 title: "QtQuickcontrols components"
 ---
 
-Current version of QtQuickcontrols available on <a href="https://github.com/nemomobile/qtquickcontrols-nemo">github</a>. Contents:
-<h2>Components</h2>
-<ul>
-  <li>ActionButton</li>
-  <li>ApplicationWindow</li>
-  <li>Button</li>
-  <li>ButtonRow</li>
-  <li>Checkbox</li>
-  <li>DatePicker</li>
-  <li>ErrorStackPage</li>
-  <li>GlacierRoller</li>
-  <li>GlacierRollerItem</li>
-  <li>Header</li>
-  <li>HeaderToolsLayout</li>
-  <li>IconButton</li>
-  <li>InverseMouseArea</li>
-  <li>Label</li>
-  <li>ListView</li>
-  <li>ListViewItemWithActions</li>
-  <li>NemoIcon</li>
-  <li>Page</li>
-  <li>ProgressBar</li>
-  <li>ScrollDecorator</li>
-  <li>Slider</li>
-  <li>Spinner</li>
-  <li>TextField</li>
-  <li>TimePicker</li>
-  <li>ToolButton</li>
-</ul>
-<h2>Dialogs</h2>
-<ul>
-  <li>SimpleDialog</li>
-  <li>QueryDialog</li>
-  <li>SelectionDialog</li>
-</ul>
+
+
+Current version of QtQuickcontrols available on <a href="https://github.com/nemomobile-ux/qtquickcontrols-nemo">github</a>. Contents:
+## Components
+
+* ActionButton
+* ApplicationWindow
+* Button
+* ButtonRow
+* Checkbox
+* DatePicker
+* ErrorStackPage
+* GlacierRoller
+* GlacierRollerItem
+* Header
+* HeaderToolsLayout
+* IconButton
+* InverseMouseArea
+* Label
+* ListView
+* ListViewItemWithActions
+* NemoIcon
+* Page
+* ProgressBar
+* ScrollDecorator
+* SelectRoller
+* Slider
+* Spinner
+* Tabs
+* TextField
+* TimePicker
+* ToolButton
+
+![progressbars](/images/qtquickcontrols/progressbars.png){:width="16%"}
+![buttons](/images/qtquickcontrols/buttons.png){:width="16%"}
+![button row](/images/qtquickcontrols/button_row.png){:width="16%"}
+![switch](/images/qtquickcontrols/switch.png){:width="16%"}
+![date picker](/images/qtquickcontrols/date_picker.png){:width="16%"}
+![list view](/images/qtquickcontrols/listview.png){:width="16%"}
+![selectroller](/images/qtquickcontrols/select_roller.png){:width="16%"}
+![sliders](/images/qtquickcontrols/sliders.png){:width="16%"}
+![tabs](/images/qtquickcontrols/tabs1.png){:width="16%"}
+![tabs](/images/qtquickcontrols/tabs2.png){:width="16%"}
+![text input](/images/qtquickcontrols/text_input.png){:width="16%"}
+![time picker](/images/qtquickcontrols/time_picker.png){:width="16%"}
+
+
+## Dialogs
+
+* SimpleDialog
+* QueryDialog
+* SelectionDialog
+
+![dialog](/images/qtquickcontrols/dialog.png){:width="16%"}
+![dialog2](/images/qtquickcontrols/dialog2.png){:width="16%"}
+![dialog3](/images/qtquickcontrols/dialog3.png){:width="16%"}
