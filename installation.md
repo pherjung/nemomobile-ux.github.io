@@ -29,11 +29,11 @@ xz -dc "Manjaro-ARM-nemomobile-pinephone-0.3.img.xz" | dd if=/dev/stdin of=/dev/
 SigLevel = Optional
 Server = https://img.nemomobile.net/manjaro/10.2021/devel/x86_64/
 ```
-* Install nemomobile packages
+* Install Nemomobile packages
 ```
 pacman -S --noconfirm $(pacman -Slq nemomobile)
 ```
-* Run `lipstick` or logout, choose nemomobile, and logging in.
+* Run `lipstick` or logout, choose Nemomobile, and logging in.
 
 ## I have a problem!
 

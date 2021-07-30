@@ -4,7 +4,7 @@ title: Software developer kit
 description: Get and setup nemo sdk
 ---
 
-## Getting nemo sdk
+## Getting Nemo sdk
 
 Install [nemomobile into Virtualbox](/installation/). Install `manjaro-arm-tools` and `base-devel` packages
 
@@ -15,7 +15,7 @@ pacman -S manjaro-arm-tools base-devel
 
 ## Build packages
 
-Start with nemo packaging repository [packaging repository](https://github.com/nemomobile-ux/nemo-packaging) or with [manjaro-arm packages](https://gitlab.manjaro.org/manjaro-arm/packages/community/nemo-ux).
+Start with Nemo packaging repository [packaging repository](https://github.com/nemomobile-ux/nemo-packaging) or with [manjaro-arm packages](https://gitlab.manjaro.org/manjaro-arm/packages/community/nemo-ux).
 The build procedure is given by scripts in `PKGBUILD` file. 
 
 ### x86_64 build:
