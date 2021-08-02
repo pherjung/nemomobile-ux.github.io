@@ -17,7 +17,7 @@ This is review of current status. The features was tested on PinePhone BraveHear
 
 | feature  | status  | comment  |
 |----------|---------|----------|
-| boots into graphics	|	✓	|	takes 3 minutes (mce daemon                                                 |
+| boots into graphics	|	✓	|	takes 3 minutes (mce daemon)                                                |
 | glacier-dialer/phone calls	|	×	|	ofonoctl list says denied                                           |
 | settings: 3G/4G connection	|	×	|	ofonoctl list says denied                                           |
 | glacier-contacts	|	~	|	can create/edit/delete/import contacts                                          |
@@ -42,7 +42,7 @@ This is review of current status. The features was tested on PinePhone BraveHear
 | NFC	|	~	|	didn’t tried                                                                                |
 | positioning (GPS)	|	~	|	it showed position from geoclu, not sure if works                               |
 | glacier-maps	|	×	|	missing, could be done with modRana or pure-maps?                                   |
-| power saving / wakeup 	|	~	|	Some issue which turns of screen. Cannot test with Brave Heart edition. |
+| power saving / wakeup 	|	~	|	Some issue which turns of screen. Cannot test with Brave Heart edition. Battery life should be measured. |
 | volume control	|	×	|	Doens’t work                                                                    |
 | power key	|	×	|	dsme/priviledged user issue, overlay                                                    |
 | maliit keyboard	|	~	|	mostly works, incorrect minimizing, doens’t work with gtk apps                  |
@@ -50,3 +50,5 @@ This is review of current status. The features was tested on PinePhone BraveHear
 | gtk apps	|	×	|	keyboard doesn’t show, theme is not mobile                                              |
 | anbox/waydroid	|	×	|	megi kernel doesn’t have necessary modules                                      |
 | flatpak	|	✓	|	desktop icon isn’t created, keyboard not working                                        |
+| glacier-calendar	|	×	|	some app with OS integration should be done yet |
+| glacier-weather	|	×	|	some app with OS integration should be done yet |
