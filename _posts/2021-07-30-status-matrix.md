@@ -50,5 +50,4 @@ This is review of current status. The features was tested on PinePhone BraveHear
 | gtk apps	|	×	|	keyboard doesn’t show, theme is not mobile                                              |
 | anbox/waydroid	|	×	|	megi kernel doesn’t have necessary modules                                      |
 | flatpak	|	✓	|	desktop icon isn’t created, keyboard not working                                        |
-| glacier-calendar	|	×	|	some app with OS integration should be done yet |
 | glacier-weather	|	×	|	some app with OS integration should be done yet |
