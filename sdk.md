@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Software developer kit
 description: Get and setup nemo sdk
 ---

@@ -42,6 +42,10 @@
     )
   ));
 
+.page-feature-image {
+    max-width: 100%;
+}
+
 .btn-social {
     display: block;
     float: left;
@@ -1391,7 +1395,12 @@ a.btn-social:hover {
     object-fit: cover;
     overflow: hidden;
     display: block;
+  }
+  .cover_default {
     margin: 12em 0 0 0;
+  }
+  .cover_post {
+    margin: 3em 0 0 0;
   }
 
 
