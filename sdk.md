@@ -41,3 +41,17 @@ To add new package into repository copy the file into directory and run repo-add
 ```
 repo-add -q "nemomobile.db.tar.xz" "*.pkg.tar.*"
 ```
+
+## Building rootfs
+
+The rootfs images are based on packages it self and recipe how to bake them together.
+There is a list of packages to use, list of services to enable, and other configuration. This
+is specific for device and desktop environment. This is in arm-profiles repository. The
+buildarmimg downloads upstream repository into `/usr/share/manjaro-arm-tools/profiles/arm-profiles`.
+It should be replaced by nemomobile branch from  [https://github.com/nemomobile-ux/arm-profiles/tree/nemomobile](arm-profiles)..
+
+The rootfs image could be build as follows:
+
+```
+sudo buildarmimg -d pinephone -e nemomobile -k https://img.nemomobile.net/manjaro/10.2021/devel/aarch64/nemomobile.db
+```
