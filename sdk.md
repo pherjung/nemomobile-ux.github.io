@@ -48,7 +48,7 @@ The rootfs images are based on packages it self and recipe how to bake them toge
 There is a list of packages to use, list of services to enable, and other configuration. This
 is specific for device and desktop environment. This is in arm-profiles repository. The
 buildarmimg downloads upstream repository into `/usr/share/manjaro-arm-tools/profiles/arm-profiles`.
-It should be replaced by nemomobile branch from  [https://github.com/nemomobile-ux/arm-profiles/tree/nemomobile](arm-profiles)..
+It should be replaced by nemomobile branch from [arm-profiles](https://github.com/nemomobile-ux/arm-profiles/tree/nemomobile)..
 
 The rootfs image could be build as follows:
 
