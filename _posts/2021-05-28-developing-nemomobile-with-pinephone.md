@@ -22,8 +22,8 @@ First of all you should download the image and copy it into you SD card.
 
 ```
 # sudo -i
-# wget https://img.nemomobile.net/2021.05/Manjaro-ARM-nemomobile-pinephone-0.3.img.xz
-# xz -dc "Manjaro-ARM-nemomobile-pinephone-0.3.img.xz" | dd if=/dev/stdin of="/dev/mmcblk0" status=progress conv=fsync bs=4M
+# wget https://img.nemomobile.net/2021.10/Manjaro-ARM-nemomobile-pinephone-0.5.img.xz
+# xz -dc "Manjaro-ARM-nemomobile-pinephone-0.5.img.xz" | dd if=/dev/stdin of="/dev/mmcblk0" status=progress conv=fsync bs=4M
 # sync; sync; sync
 ```
 
