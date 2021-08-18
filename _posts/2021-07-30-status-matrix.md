@@ -52,3 +52,6 @@ This is review of current status. The features was tested on PinePhone BraveHear
 | anbox/waydroid	|	×	|	megi kernel doesn’t have necessary modules                                      |
 | flatpak	|	✓	|	desktop icon isn’t created, keyboard not working                                        |
 | glacier-weather	|	×	|	some app with OS integration should be done yet |
+| flashlight/torch	|	×	|	To be done yet. |
+
+You can compare state of nemomobile with [ubuntu touch](https://devices.ubuntu-touch.io/device/pinephone/) or with [postmarketOS](https://wiki.postmarketos.org/wiki/PINE64_PinePhone_(pine64-pinephone)).
