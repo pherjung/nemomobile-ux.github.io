@@ -121,9 +121,12 @@ The settings of time and timezone had only automatic mode, but it didn’t worke
 in qt5-timed. The `RingIndicator` used for visualization of clock was reworked. Now, there are two new dialogs.
 One for settings of the time zone and second for settings of the date and time. See screenshots below: 
 
-![](/images/2021-08-17-nemomobile-in-august-2021/20210803132800.png){: height="400"}
-![](/images/2021-08-17-nemomobile-in-august-2021/time-zone-selection1.jpg){: height="400"}
-![](/images/2021-08-17-nemomobile-in-august-2021/time-zone-selection2.jpg){: height="400"}
+![](/images/2021-08-17-nemomobile-in-august-2021/20210803132800.png){: width="300"}
+![](/images/2021-08-17-nemomobile-in-august-2021/20210818100858.png){: width="300"}
+![](/images/2021-08-17-nemomobile-in-august-2021/20210818100941.png){: width="300"}
+
+
+
 
 ## File manager shows files
 
