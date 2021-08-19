@@ -1,12 +1,12 @@
 ---
 layout: post
 permalink: /qtquickcontrols-nemo/
-title: "QtQuickcontrols components"
+title: "QtQuick Controls components"
 ---
 
 
 
-Current version of QtQuickcontrols available on <a href="https://github.com/nemomobile-ux/qtquickcontrols-nemo">github</a>. Contents:
+Current version of QtQuick Controls available on <a href="https://github.com/nemomobile-ux/qtquickcontrols-nemo">github</a>. Contents:
 ## Components
 
 * ActionButton
