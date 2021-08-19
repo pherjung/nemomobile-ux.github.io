@@ -159,7 +159,7 @@ Startup finished in 727ms (userspace)
 default.target reached after 727ms in userspace
 ```
 
-## Web site
+## Website
 
 I am very happy, that we managed to improve website of the project [nemomobile.net](https://www.nemomobile.net/). Now, the webpage covers
 [installation](/installation/) of Nemo mobile on PinePhone from image to µSD card. Next, there is [overview of basic user interface](/glacier-home/),
@@ -189,7 +189,7 @@ has [iio-sensor-proxy](https://gitlab.freedesktop.org/hadess/iio-sensor-proxy/) 
 
 The data should go from hardware to application as follows.
 
-`sysfs` &rarr; `sensorfw` &rarr; `Qt5` &rarr; `Application`
+`sysfs -> sensorfw -> Qt5 -> Application`
 
 The device provides data see `/sys/bus/iio/devices/iio\:device3/in_magn_y_raw`
 
