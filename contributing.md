@@ -25,7 +25,7 @@ Then it depends on what you want contribute to:
 
 ## Graphics
 
-We want contributing also by creating of some graphical mockup or sketch of idea. We
+We want contributing also by creating of some graphical mockup or sketch of idea. See
 [Qwazix’s blog – Design](http://play.qwazix.com/grog/)
 
 ## Testing
