@@ -22,6 +22,9 @@ Then it depends on what you want contribute to:
 * the list of components could be found [nemo-packaging](https://github.com/nemomobile-ux/nemo-packaging/) repository,
 * Nemomobile is based on Manjaro Linux. Please follow their [guidelines for contributing](https://forum.manjaro.org/t/wiki-how-to-contribute-to-manjaro-arm/35461).
 
+## Translate
+
+* translation could be provided via [transifex/nemomobile](https://transifex.com/nemomobile/) or directly using merge request on github.
 
 ## Graphics
 
