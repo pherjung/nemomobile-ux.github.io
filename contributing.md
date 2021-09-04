@@ -9,11 +9,11 @@ IRC channel and checking out our GitHub repos. You can ask us for help and we wi
 
 ## Document
 
-This website is created using Jekyll. Fork [repository](github.com/nemomobile-ux/nemomobile-ux.github.io), make your changes, and create merge request.
+This website is created using Jekyll. Fork [repository](https://github.com/nemomobile-ux/nemomobile-ux.github.io), make your changes, and create merge request.
 
 ## Code
 
-You should start with [Installation]({% link installation.md %}) and [SDK]({% link sdk.md %}). 
+You should start with [Installation]({% link installation.md %}) and [SDK]({% link sdk.md %}).
 
 Then it depends on what you want contribute to:
 
@@ -40,5 +40,5 @@ if freshly updated components works correctly on your platform. [Let us know abo
 
 ## Blog post
 
-Write your review of operting system. You can add your blog also to our website. Just fork the [repository](github.com/nemomobile-ux/nemomobile-ux.github.io), make your changes, and create merge request.
+Write your review of operting system. You can add your blog also to our website. Just fork the [repository](https://github.com/nemomobile-ux/nemomobile-ux.github.io), make your changes, and create merge request.
 
