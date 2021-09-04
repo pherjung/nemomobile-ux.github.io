@@ -24,7 +24,7 @@ Then it depends on what you want contribute to:
 
 ## Translate
 
-* translation could be provided via [transifex/nemomobile](https://transifex.com/nemomobile/) or directly using merge request on github.
+* translation could be provided via [transifex/nemomobile](https://www.transifex.com/nemomobile/public/) or directly using merge request on github.
 
 ## Graphics
 
