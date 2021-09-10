@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nemomobile in August/2021
-modified: 2021-07-30
+modified: 2021-08-17
 author: jmlich
 tags: [main]
 image:
