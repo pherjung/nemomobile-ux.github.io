@@ -117,7 +117,7 @@ In the end, I was able to create an bootable image \o/
 
 If you want to test latest and greatest build:
 
-(1) download image [https://pcmlich.fit.vutbr.cz/nemo/images/](https://pcmlich.fit.vutbr.cz/nemo/images/)
+(1) download image
 
 (2) flash it on your sd card
 
