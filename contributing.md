@@ -24,21 +24,29 @@ Then it depends on what you want contribute to:
 
 ## Translate
 
-* translation could be provided via [transifex/nemomobile](https://www.transifex.com/nemomobile/public/) or directly using merge request on github.
+Translations could be provided via [transifex/nemomobile](https://www.transifex.com/nemomobile/public/) or directly using merge request on github.
 
 ## Graphics
 
-We want contributing also by creating of some graphical mockup or sketch of idea. See
-[Qwazix’s blog – Design](http://play.qwazix.com/grog/)
+We are looking for designers and artists who can create graphical mockup of user interface, sketch ideas, and help with other graphics. See
+[Qwazix’s blog – Design](http://play.qwazix.com/grog/).
 
 ## Testing
 
 The changes are some time done without testing on all devices. Follow changes in repositories and try
 if freshly updated components works correctly on your platform. [Let us know about problems]({% link troubleshooting.md %}).
 
-## Infratructure
+## Infrastructure
+
+The free capacity of server can be utilized for different tasks. For example:
+
+* repository and image mirroring
+* continuous integration - automated build of images
 
 ## Blog post
 
 Write your review of operting system. You can add your blog also to our website. Just fork the [repository](https://github.com/nemomobile-ux/nemomobile-ux.github.io), make your changes, and create merge request.
 
+## Donate
+
+You can send us money.
