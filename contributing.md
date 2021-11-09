@@ -50,3 +50,5 @@ Write your review of operting system. You can add your blog also to our website.
 ## Donate
 
 You can send us money.
+
+<a href="https://liberapay.com/NemoMobile/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
