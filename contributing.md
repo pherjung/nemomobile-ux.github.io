@@ -4,8 +4,8 @@ permalink: /contributing/
 title: "Want to contribute?"
 ---
 
-You can contribute by joining our [Telegram group](https://t.me/NemoMobile), [Matrix group](https://matrix.to/#/#nemomobile:matrix.org),
-IRC channel and checking out our GitHub repos. You can ask us for help and we will be happy to answer any questions.
+You can contribute by joining our [Telegram group](https://t.me/NemoMobile), [Matrix group](https://matrix.to/#/#nemomobile:matrix.org)
+and checking out our GitHub repos. You can ask us for help and we will be happy to answer any questions.
 
 ## Document
 

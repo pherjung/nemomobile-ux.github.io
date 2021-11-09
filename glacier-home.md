@@ -22,6 +22,5 @@ Please look into the [troubleshooting](/troubleshooting) section.
 ## References
 
 * [Qwazix's blog -- Design](http://play.qwazix.com/grog/)
-* Nemo Mobile IRC logs
 * [Nemo UX git](https://github.com/nemomobile-ux)
 * [Nemo git](https://github.com/nemomobile)
