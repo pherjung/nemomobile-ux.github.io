@@ -153,6 +153,22 @@ so you can work with them just as with the nemo-packaging repo. Some day we may 
 
 The main issue with Manjaro repositories is that the built packages [aren’t pushed automatically](https://forum.manjaro.org/t/automation-of-package-updates/71308/2) to unstable/testing. We (Sergey and I) don’t have permission to do it manually. Spikerguy does have permission, but it takes quite some time to rebuild and update all packages one by one. We will continue ‘wild’ development outside of Manjaro probably for some time yet. The packaging itself (i.e. files in git repositories) could be probably done in their gitlab.
 
+## Known issues
+
+If you have troubles with pacman, installing packages, and gpg signatures. You can try to recreate keyring.
+
+```
+pacman-key --init
+pacman-key --populate archlinuxarm manjaro manjaro-arm
+pacman-mirrors -f5
+```
+
+You can turn it off if it doesn't help. This is very very bad and goes against fundamentals of security, but it may help you to workaround this issue:
+
+```
+sed 's/SigLevel.*/SigLevel = Optional TrustAll/' -i /etc/pacman.conf; pacman-key --init
+```
+
 ## Bug to start with
 
 Sergey fixed the [issue with Folder View](https://github.com/nemomobile-ux/glacier-home/issues/147) 
@@ -171,12 +187,3 @@ debugging across multiple components is needed. The communication is handled via
 tricky to find the exact place where the problem is. However, the contacts application is crucial
 for a smartphone OS, so everyone will see your code when you provide a fix.
 
-## Known issues:
-
-If you have troubles with pacman, installing packages, and gpg signatures, you can turn it off. This is **very very bad** and goes against fundamentals of security, but easiest way to install something:
-
-```
-sed 's/SigLevel.*/SigLevel = Optional TrustAll/' -i /etc/pacman.conf; pacman-key --init
-```
-
-Let me know if you know what is proper fix. I will be happy to replace this section.
