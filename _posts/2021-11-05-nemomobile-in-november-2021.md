@@ -69,6 +69,8 @@ in Manajro. Additionally, PineTab and its specific packages was added as possibl
 The support of PineTab required change in manjaro-arm-tools to [allow installation of device specific packages](http://manjaro-arm-tools and device specific packages)
 for each manjaro edition. Previously, there were hack to allow device specific patches only for PinePhone.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-rY6YQFGFdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Other changes
 
 Nemo specific [changes in dsme](https://github.com/nemomobile-ux/nemo-packaging/commit/9a7c66c870ed866c10575d2925c8dd8a3612896c) was merged into upstream.
