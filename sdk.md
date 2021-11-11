@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Software developer kit
-description: Get and setup nemo sdk
+description: Getting and setup Nemo SDK
 ---
 
-## Getting Nemo sdk
+## Getting Nemo SDK
 
 Install [nemomobile into Virtualbox](/installation/). Install `manjaro-arm-tools` and `base-devel` packages
 

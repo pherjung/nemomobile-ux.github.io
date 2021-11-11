@@ -6,11 +6,11 @@ title: "Installation"
 
 Glacier UI is the next interface for Nemo Mobile.
 It is a new UI, created and built by the community, and made with the latest technologies like Qt 5 and Wayland.
-For developing use [libglacierapp](#) and [qtquickcontrols-nemo](/qtquickcontrols-nemo/)
+For developing look on [Software Development Kit](/sdk/) and our [Application Programming Interface](/qtquickcontrols-nemo/) documentation.
 
 # Try it
 
-## On a phone
+## On a PinePhone or PineTab
 
 * Download latest image from [img.nemomobile.net](https://img.nemomobile.net/) (for example [Manjaro-ARM-nemomobile-pinephone-0.5.img.xz](https://img.nemomobile.net/2021.10/Manjaro-ARM-nemomobile-pinephone-0.5.img.xz))
 * Copy image on the &micro;SD card
