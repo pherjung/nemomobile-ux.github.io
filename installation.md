@@ -34,7 +34,3 @@ Server = https://img.nemomobile.net/manjaro/10.2021/devel/x86_64/
 pacman -S --noconfirm $(pacman -Slq nemomobile)
 ```
 * Run `lipstick` or logout, choose Nemomobile, and logging in.
-
-## I have a problem!
-
-Please look into the [troubleshooting](/troubleshooting) section.
