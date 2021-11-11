@@ -5,7 +5,7 @@ modified: 2021-06-19
 author: jmlich
 tags: [main]
 image:
-  teaser: 2021-06-19-own-nemomobile-image/Screenshot_manjaro_2021-06-19_150855.png
+  teaser: 2021-06-19-own-nemomobile-image/Screenshot_manjaro_2021-06-19_150855-620.png
   thumb: 2021-06-19-own-nemomobile-image/Screenshot_manjaro_2021-06-19_150855.png
 ---
 

@@ -5,8 +5,8 @@ modified: 2021-10-01
 author: jmlich
 tags: [main]
 image:
-  feature: ./2021-10-01-nemomobile-in-october-2021/nemo-pinephone-n950.jpg
-  teaser: ./2021-10-01-nemomobile-in-october-2021/nemo-pinephone-n950.jpg
+  feature: ./2021-10-01-nemomobile-in-october-2021/nemo-pinephone-n950-980.jpg
+  teaser: ./2021-10-01-nemomobile-in-october-2021/nemo-pinephone-n950-620.jpg
   thumb: ./2021-10-01-nemomobile-in-october-2021/nemo-pinephone-n950.jpg
 ---
 

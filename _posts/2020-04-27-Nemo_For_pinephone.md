@@ -5,7 +5,7 @@ modified: 2020-04-27
 author: neochapay
 tags: [main]
 image:
-  teaser: pinephone.jpg
+  teaser: pinephone-620.jpg
   thumb: pinephone.jpg
 ---
 

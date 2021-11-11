@@ -5,7 +5,7 @@ modified: 2021-06-07
 author: pherjung
 tags: [main]
 image:
-  teaser: presentation.png
+  teaser: presentation-620.png
   thumb: presentation.png
 ---
 

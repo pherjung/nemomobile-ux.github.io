@@ -5,8 +5,8 @@ modified: 2021-08-17
 author: jmlich
 tags: [main]
 image:
-  feature: PinePhone_Beta_Edition-border.png
-  teaser: PinePhone_Beta_Edition-border.png
+  feature: PinePhone_Beta_Edition-border-980.png
+  teaser: PinePhone_Beta_Edition-border-620.png
   thumb: PinePhone_Beta_Edition-border.png
 ---
 
