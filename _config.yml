@@ -5,7 +5,7 @@ description: This is the team site for the Nemo Mobile user experience, includin
 logo: nemo-logo.svg
 teaser: nemo-logo.svg
 locale:
-url: https://www.nemomobile.net
+url: https://nemomobile.net
 baseurl: ""
 
 # Jekyll configuration
