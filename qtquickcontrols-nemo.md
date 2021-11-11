@@ -1,13 +1,21 @@
 ---
 layout: post
 permalink: /qtquickcontrols-nemo/
-title: "QtQuick Controls components"
+title: "Components"
 ---
 
 
+## libglacierapp
 
-Current version of QtQuick Controls available on <a href="https://github.com/nemomobile-ux/qtquickcontrols-nemo">github</a>. Contents:
-## Components
+The libglacierapp is available on [github](https://github.com/nemomobile-ux/libglacierapp/).
+
+It brings uniform approach to window position handling and translations. It is recommened to use it on Nemo.
+
+## QtQuick Controls components
+
+Current version of QtQuick Controls available on [github](https://github.com/nemomobile-ux/qtquickcontrols-nemo). 
+
+### Basic components
 
 * ActionButton
 * ApplicationWindow
@@ -51,7 +59,7 @@ Current version of QtQuick Controls available on <a href="https://github.com/nem
 ![time picker](/images/qtquickcontrols/time_picker.png){:width="16%"}
 
 
-## Dialogs
+### Dialogs
 
 * SimpleDialog
 * QueryDialog
