@@ -18,17 +18,59 @@ description: Bringing freedom to mobile
 		<section id="main" class="container">
 
 			<section class="box special">
+				<span class="image featured"><img src="images/nexus5_wide_nemo.png" alt="" /></span>
+				<ul style="text-align: left;">
+					<li><b>FOSS</b> - Free Open Source Software. Anyone can see, use, and contribute to the codebase. </li>
+					<li><b>Built with mobile in mind</b> - NemoMobile utilizes well developed and fully open source Mer-core. Mer-core has been optimized for mobile devices and is based on multi-platform toolkit Qt.</li>
+					<li><b>Easy to use UX</b> - Glacier UX as the default the use of NemoMobile is fluid and natural. It is very easy to build new user experiences.</li>
+					<li><b>Secure</b> - Security is a default with true Linux devices. You control everything just like with your Linux desktop.</li>
 				<header class="major">
-					<h2>NemoMobile is the successor of MeeGo and is
-					<br />
-					a truly opensource Linux-based Mobile Operating System</h2>
-					<p>NemoMobile is community driven effort to bring a truly free and open
-					choice of mobile operating system to the end user.</p>
+				</ul>
 				</header>
-				<span class="image featured"><img src="images/nexus5_wide.png" alt="" /></span>
+				<!--span class="image featured"><img src="images/nexus5_wide.png" alt="" /></span-->
 			</section>
 
 			<section class="box special features">
+				<div class="features-row">
+					<section>
+						<span class="icon major fa-mobile accent1"></span>
+						<h3>Devices</h3>
+						<p>Read installation instructions and try it on your own</p>
+						<ul class="actions">
+							<li><a href="{{ '/installation' | relative_url }}" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+					<section>
+						<span class="icon major fa-code accent2"></span>
+						<h3>Development</h3>
+						<p>Install SDK into virtual machine, explore APIs, rebuild packages and create your own images</p>
+						<ul class="actions">
+							<li><a href="{{ '/sdk' | relative_url }}" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+				<div class="features-row">
+					<section>
+						<span class="icon major fa-thumbs-up accent3"></span>
+						<h3>Troubleshooting</h3>
+						<p>Join our Telegram group, Matrix Group and check out our GitHub repos. We will be happy to answer any questions.</p>
+						<ul class="actions">
+							<li><a href="{{ '/installation' | relative_url }}" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+					<section>
+						<span class="icon major fa-puzzle-piece accent4"></span>
+						<h3>Community</h3>
+						<p>Bring your ideas to life</p>
+						<ul class="actions">
+							<li><a href="{{ '/contributing' | relative_url }}" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+
+			<!-- section class="box special features">
 				<div class="features-row">
 					<section>
 						<span class="icon major fa-code accent1"></span>
@@ -58,34 +100,8 @@ description: Bringing freedom to mobile
 						everything just like with your Linux desktop.</p>
 					</section>
 				</div>
-			</section>
+			</section -->
 
-			<div class="row">
-				<div class="6u 12u(narrower)">
-					<section class="box special">
-						<span class="image featured"><img src="images/nexus5_wide.png" alt="" /></span>
-						<h3>Want to contribute?</h3>
-						<p>Join our Telegram group, Matrix Group and check out our GitHub repos.
-						We will be happy to answer any questions.</p>
-						<ul class="actions">
-							<li><a href="{{ '/contributing' | relative_url }}" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-
-				</div>
-				<div class="6u 12u(narrower)">
-
-					<section class="box special">
-						<span class="image featured"><img src="images/nexus5_wide.png" alt="" /></span>
-						<h3>Development so far</h3>
-						<p>Check here for our current development progress.</p>
-						<ul class="actions">
-							<li><a href="{{ '/blogs' | relative_url }}" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-
-				</div>
-			</div>
 			<div class="row" style="display: flex; flex-wrap: wrap;">
 				<!-- Blog posts -->
 				 {% for post in site.posts limit: 4 %}
