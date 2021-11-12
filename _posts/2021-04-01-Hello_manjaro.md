@@ -5,7 +5,7 @@ modified: 2021-04-02
 author: neochapay
 tags: [main]
 image:
-  teaser: pinephone-nemomobile-manjaro.png
+  teaser: pinephone-nemomobile-manjaro-620.png
   thumb: pinephone-nemomobile-manjaro.png
 ---
 

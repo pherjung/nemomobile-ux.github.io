@@ -5,7 +5,7 @@ modified: 2020-03-25
 author: bart_ribbers
 tags: [main]
 image:
-  teaser: postmarketos-logo.svg
+  teaser: postmarketos-logo-620.svg
   thumb: postmarketos-logo.svg
 ---
 

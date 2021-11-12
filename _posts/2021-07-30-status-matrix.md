@@ -6,7 +6,7 @@ author: jmlich
 tags: [main]
 image:
   feature: Manjaro_Pinephone_twitter_draft1b.jpg
-  teaser: Manjaro_Pinephone_twitter_draft1b.jpg
+  teaser: Manjaro_Pinephone_twitter_draft1b-620.jpg
   thumb: Manjaro_Pinephone_twitter_draft1b.jpg
 ---
 

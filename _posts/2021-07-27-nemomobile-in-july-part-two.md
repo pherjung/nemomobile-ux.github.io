@@ -5,7 +5,7 @@ modified: 2021-07-27
 author: jmlich
 tags: [main]
 image:
-  teaser: 2021-07-27-nemomobile-in-july-part-two/20210716_185953-577x1024r.jpg
+  teaser: 2021-07-27-nemomobile-in-july-part-two/20210716_185953-577x1024r-620.jpg
   thumb: 2021-07-27-nemomobile-in-july-part-two/20210716_185953-577x1024r.jpg
 ---
 

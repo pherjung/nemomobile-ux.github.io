@@ -43,9 +43,12 @@ The free capacity of server can be utilized for different tasks. For example:
 * repository and image mirroring
 * continuous integration - automated build of images
 
-## Blog post
+## Connection with community
 
-Write your review of operting system. You can add your blog also to our website. Just fork the [repository](https://github.com/nemomobile-ux/nemomobile-ux.github.io), make your changes, and create merge request.
+
+Try it, use it, and share your experience with others. Publish your opinion on social networks. We will be happy to see articles or blog posts about Nemomobile.
+
+You can even re-publish your blog post also to our website. Just fork the [repository](https://github.com/nemomobile-ux/nemomobile-ux.github.io), make your changes, and create merge request.
 
 ## Donate
 

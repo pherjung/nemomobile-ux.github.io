@@ -5,7 +5,7 @@ modified: 2021-05-28
 author: jmlich
 tags: [main]
 image:
-  teaser: 2021-05-28-developing-nemomobile-with-pinephone/20210527_163419-1024x577.jpg
+  teaser: 2021-05-28-developing-nemomobile-with-pinephone/20210527_163419-1024x577-620.jpg
   thumb: 2021-05-28-developing-nemomobile-with-pinephone/20210527_163419-1024x577.jpg
 ---
     

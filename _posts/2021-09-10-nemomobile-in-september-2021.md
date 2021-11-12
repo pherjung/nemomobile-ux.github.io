@@ -5,8 +5,8 @@ modified: 2021-09-10
 author: jmlich
 tags: [main]
 image:
-  feature: ./2021-09-10-nemomobile-in-september-2021/nemo-landscape-keyboard.jpg
-  teaser: ./2021-09-10-nemomobile-in-september-2021/nemo-landscape-keyboard.jpg
+  feature: ./2021-09-10-nemomobile-in-september-2021/nemo-landscape-keyboard-980.jpg
+  teaser: ./2021-09-10-nemomobile-in-september-2021/nemo-landscape-keyboard-620.jpg
   thumb: ./2021-09-10-nemomobile-in-september-2021/nemo-landscape-keyboard.jpg
 ---
 
