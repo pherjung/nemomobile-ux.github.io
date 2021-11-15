@@ -28,11 +28,8 @@ description: Bringing freedom to mobile
 					<li><b>Built with mobile in mind</b> - NemoMobile utilizes well developed and fully open source Mer-core. It has been optimized for mobile devices and is based on multi-platform toolkit Qt.</li>
 					<li><b>Easy to use UX</b> - Glacier UX as the default the use of NemoMobile is fluid and natural. It is very easy to build new user experiences.</li>
 					<li><b>Secure</b> - Security is a default with true Linux devices. You control everything just like with your Linux desktop.</li>
-				<header class="major">
 				</ul>
 				<div style="clear:both">&nbsp;</div>
-				</header>
-				<!--span class="image featured"><img src="images/nexus5_wide.png" alt="" /></span-->
 			</section>
 
 
@@ -82,15 +79,15 @@ description: Bringing freedom to mobile
 
 						       <span class="image featured post-teaser">
 						       {% if post.image.teaser %}
-                      <img src="{{ '/images/' | append: post.image.teaser | relative_url }}" alt="teaser" itemprop="image">
+                      <img src="{{ '/images/' | append: post.image.teaser | relative_url }}" alt="teaser" itemprop="image" />
                    {% else %}
-                      <img src="{{ '/images/' | append: site.teaser | relative_url }}" alt="teaser" itemprop="image">{% endif %}
+                      <img src="{{ '/images/' | append: site.teaser | relative_url }}" alt="teaser" itemprop="image" />{% endif %}
+						       </span>
 						       <h3>{{ post.title }}</h3>
 						       <p>{{ post.description }}</p>
 						       <ul class="actions">
 							       <li><a href="{{ post.url | relative_url }}" class="button alt">Learn More</a></li>
 						       </ul>
-						</a>
 					       </section>
        
 				       </div>
