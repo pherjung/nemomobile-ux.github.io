@@ -4,7 +4,7 @@ title: Nemo Mobile UX team
 description: This is the team site for the Nemo Mobile user experience, including documentation to latest software and components
 logo: nemo-logo.svg
 teaser: nemo-logo.svg
-locale:
+locale: en_US
 url: https://nemomobile.net
 baseurl: ""
 
