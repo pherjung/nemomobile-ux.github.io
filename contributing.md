@@ -33,9 +33,9 @@ We are looking for designers and artists who can create graphical mockup of user
 
 ## Testing
 
-* Check status of feature with your device on current version. Update [status](https://github.com/nemomobile-ux/nemomobile-ux.github.io/tree/master/_devices)
+* Check status of feature with your device on current version. Update [status on website](https://github.com/nemomobile-ux/nemomobile-ux.github.io/tree/master/_devices) according to your finding.
 * Try to update to most recent version if something doesn't work.
-* Try to find out what is problem [in the code]({% link contributing.md %}#code). your self if you have right expertise.
+* Try to find out what is problem [in the code]({% link contributing.md %}#code) your self if you have right expertise.
 * [Let us know about problems]({% link troubleshooting.md %}).
 
 ## Infrastructure
