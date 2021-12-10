@@ -42,16 +42,25 @@ description: Overview of which features works and which doesn't
         <td>{{ device.linuxKernel }}</td>
         {% if device.portStatus.size > 0 %}
                 {% for cat in device.portStatus %}
-                    {% assign working = 0 %} {% assign notworking = 0 %}
+                    {% assign working = 0 %} {% assign notworking = 0 %} {% assign nottested = 0 %} {% assign unknown = 0 %}
                     {% for feature in cat.features %}
                         {% if feature.value == "Y" %}
                             {% assign working = working | plus: 1 %}
-                        {% else %}
+                        {% elsif feature.value == "N" %}
                             {% assign notworking = notworking | plus: 1 %}
+                        {% elsif feature.value == "P" %}
+                            {% assign working = working | plus: 0.5 %}
+                            {% assign notworking = notworking | plus: 0.5 %}
+                        {% elsif feature.value == "?" %}
+                            {% assign nottested = nottested | plus: 1 %}
+                        {% elsif feature.value == "-" %}
+                        {% else %}
+                            {% assign unknown = unknown | plus: 1 %}
                         {% endif %}
 
                 {% endfor %}
-                <td style="{% if notworking == 0%}color: #00ff00;{%elsif working == 0%}color: #ff0000{%else%}color: #f57900{%endif%}"  > {{ working }} / {{ working | plus: notworking }} </td>
+                {% assign total = working | plus: notworking | plus:nottested | round %}
+                <td class="{{cat.categoryName}}" style="{% if working == total %}color: #4e9a06;{%elsif working == 0 %}color: #a40000; {%else%}color: #f57900{%endif%}"  > {{ working }} / {{ total }} {%if unknown > 0 %}/ ({{unknown}}?) {%endif%} </td>
                 {% endfor %}
         {% endif %}
         </tr>

@@ -8,7 +8,7 @@ deviceType: "phone"
 portType: "Halium 9.0"
 deviceReleased: 2020
 linuxKernel: 4.4
-nemoVersion: 0.7
+nemoVersion: nightly-2021-11-28
 buyLink: "https://volla.online/de/shop/"
 installLink: "https://nemomobile.net/pages/nemomobile-on-volla-phone/"
 description: "Volla Phone, A startup focused on simplicity and privacy for the average user. It’s a solid mid-range device with eight-core, produced by Gigaset. This device falls nicely in the hands, and it has an outstanding screen/body ratio. On the other hand, it has slight incompatibility with the UT navigation bar. But, overall, it is working very smoothly and relatively responsive."
@@ -73,8 +73,6 @@ portStatus:
     features:
       - id: "anboxPatches"
         value: "?"
-      - id: "apparmorPatches"
-        value: "Y"
       - id: "batteryPercentage"
         value: "?"
       - id: "offlineCharging"
